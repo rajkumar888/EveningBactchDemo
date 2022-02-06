@@ -1,6 +1,6 @@
 package com.day3;
 
-import com.pack.demo.PublicAccessModifierDemo;
+import inheritanceDemo.PublicAccessModifierDemo;
 
 public class ChildClassDemo extends PublicAccessModifierDemo{
 

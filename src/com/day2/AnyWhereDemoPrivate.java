@@ -1,6 +1,6 @@
 package com.day2;
 
-import com.pack.demo.PublicAccessModifierDemo;
+import inheritanceDemo.PublicAccessModifierDemo;
 
 public class AnyWhereDemoPrivate {
 

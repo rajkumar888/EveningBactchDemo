@@ -1,6 +1,8 @@
 package com.pack.day5.two;
 
-import com.pack.day5.one.DefatultDemoPackOne;
+import inheritanceExample.DefatultDemoPackOne;
+
+//import inheritancedemo.DefatultDemoPackOne;
 
 public class OutSidePackageDemoForDefaultAccess {
 

@@ -1,6 +1,6 @@
 package com.day1;
 
-import com.pack.demo.PublicAccessModifierDemo;
+import inheritanceDemo.PublicAccessModifierDemo;
 
 public class OutSidePackDemo {
 

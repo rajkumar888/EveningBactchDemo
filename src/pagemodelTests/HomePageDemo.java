@@ -23,25 +23,27 @@ public class HomePageDemo {
 	}
 
 	@Test
-	public void testCaseforHomePage() {
+	public void testCaseforHomePage() throws InterruptedException {
 
 		driver.get("http://automationpractice.com/");
 		
 		HomePage homepage = new HomePage(driver);
 
 		homepage.searchForText("Shirt");
+		
+		Thread.sleep(5000);
 
 	}
 	
 	
 	@Test
-	public void testCaseforSignInPage() {
+	public void testCaseforSignInPage() throws InterruptedException {
 
 		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 		
 		SignInPage signInpage = new SignInPage(driver);
 
 		signInpage.LoginWithUserIdAndPassword("hello@gmail.com", "testPassword");
-
+		Thread.sleep(5000);
 	}
 }

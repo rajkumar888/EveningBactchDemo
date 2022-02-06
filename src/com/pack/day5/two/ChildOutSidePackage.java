@@ -1,6 +1,8 @@
 package com.pack.day5.two;
 
-import com.pack.day5.one.DefatultDemoPackOne;
+import inheritanceExample.DefatultDemoPackOne;
+
+//import inheritancedemo.DefatultDemoPackOne;
 
 public class ChildOutSidePackage extends DefatultDemoPackOne{
 
@@ -15,7 +17,7 @@ public class ChildOutSidePackage extends DefatultDemoPackOne{
 //		System.out.println(obj.getdefaultX());
 		
 		System.out.println(obj.getprotectedX());
-//		
+
 		System.out.println(obj.getpublicX());
 		
 		
